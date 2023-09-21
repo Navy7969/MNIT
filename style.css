@@ -1,0 +1,215 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html , body{
+    height: 100%;
+    width: 100%;
+}
+.box{
+    background-color: rgba(0, 0, 0, 0.457);
+    height: 100vh;
+    width: 100vw;
+    z-index: -1;
+    position: fixed;
+}
+video{
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    object-fit: cover;
+    z-index: -2;
+}
+
+.navbar{
+    height:10vh;
+    width: 100vw;
+    /* background-color: rgb(255, 255, 255); */
+}
+.uppernav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 20px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: sans-serif;
+    color: rgb(255, 255, 255);
+}
+.hindi span{
+    font-size: 13px;
+    font-weight: 400;
+}
+.english span{
+    font-size: 13px;
+    font-weight: 400;
+}
+.logo img{
+    height: 70px;
+}
+.govt_func{
+    display: flex;
+    gap: 20px;
+}
+.govt_func img{
+    height: 40px;
+    background-color: white;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    justify-content: space-evenly;
+    position: sticky;
+    top: -1px;
+}
+.navbar .icons{
+    display: flex;
+    gap: 1.4vw;
+    padding-left: 10px;
+    color: white;
+    align-items: center;
+}
+.icons i:hover{
+    background-color: #393185;
+    padding: 5px 7px;
+    border-radius: 50%;
+    color: #fcc21e;
+    transition-duration: 0.1s;
+    transition-timing-function: ease-in-out;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    background-color: #fcc21e;
+    width: 73vw;
+    justify-content: space-around;
+    height: 6vh;
+    border-radius: 3vh;
+    padding: 0px 10px;
+}
+.nav i{
+    font-size: 25px;
+    padding: 0px 0px;
+    color: white;
+}
+.nav a{
+    text-decoration: none;
+    color: black;
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 17px;
+    color: white;
+    transition-duration: 0.1s;
+    transition-timing-function: ease-in-out;
+}
+.nav a:hover{
+    background-color: #393185;
+    padding: 5px 10px;
+    border-radius: 50px;
+    color: #fcc21e;
+}
+.nav i:hover{
+    background-color: #393185;
+    padding : 5px 7px;
+    border-radius: 50%;
+    color: #fcc21e;
+    transition-duration: 0.1s;
+    transition-timing-function: ease-in-out;
+}
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 80vh;
+    padding-bottom: 5vh;
+}
+.outerbox{
+    /* border: 2px solid #fcc21e; */
+    height: 60vh;
+    width: 25vw;
+    background-color: rgba(255, 255, 255, 0.144);
+}
+
+.news{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+.title{
+    background-color: #393185;
+    height: 6vh;
+    width: 100%;
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.notices{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    gap: 40px;
+    list-style-type: none;
+    font-weight: 100;
+    color: #5098fd;
+}
+.scroling_notice{
+    background-color: rgb(0, 69, 187);
+    height: 4vh; ;
+}
+
+.page2{
+    height: 100vh;
+    width: 100vw;
+}
+
+
+
+
+@media (max-width : 900px) {
+    .uppernav{
+        padding: 10px 10px;
+    }
+    .logo{
+        gap: 10px;
+    }
+    .logo img{
+        height: 6vh;
+    }
+    .text{
+        gap: 5px;
+        font-size: 10px;
+        font-weight: 400;
+    }
+    .hindi span{
+        display: none;
+    }
+    .english span{
+        display: none;
+    }
+    .govt_func{
+        display: none;
+    }
+}
+
+
