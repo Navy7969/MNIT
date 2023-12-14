@@ -4,7 +4,7 @@
 }
 html , body{
     height: 100%;
-    width: 100%;
+    width: 100vw;
 }
 .box{
     background-color: rgba(0, 0, 0, 0.457);
